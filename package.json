@@ -1,0 +1,20 @@
+{
+  "name": "vondoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "debug": "ndb server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "validator": "^13.7.0"
+  }
+}
